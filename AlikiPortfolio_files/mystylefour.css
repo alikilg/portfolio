@@ -1,0 +1,174 @@
+html {
+  margin:0;
+  padding:0;
+  overflow-y:scroll;
+}
+
+body {
+  margin:0;
+  padding:0;
+  background: url('../images/layout/1407.JPG');
+  background-attachment: fixed;
+  font-family:'Times', serif;
+  font-size:18px;
+}
+
+#main {
+  width:90%;
+  padding:20px;
+  margin:20px auto;
+  background:#ffffff92;
+  color:#333;
+  line-height:1.4;
+}
+
+hr {
+  border-top: .7px solid white;
+  display:block;
+  margin:20;
+  padding:0;
+  /*height:20px;
+  clear:both;
+  border:none;
+  /*background:url('../images/layout/hrr.png') repeat-x center;*/
+}
+
+a {
+  color:#fff;
+  text-decoration:none;
+}
+
+a:hover {
+  color:#111;
+  /*text-shadow: 4px 2px 2px #0059b367;*/
+}
+
+img {
+  max-width: 100%;
+}
+
+.menu-item {
+  display:inline-block;
+  padding:15px 30px;
+  margin: 5px 14px 5px 0px;
+  background:#fff;
+  color:#333;font-size:18px;
+  border-right:3px solid #343434;
+}
+
+.menu-item:hover {
+  background:#222;
+  color:#fff;
+}
+
+.menu-item.selected {
+  background:#111;
+  color:#eee;
+  border-right:2px solid #454545;
+}
+
+.submenu {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+
+.submenu-item {
+  display:inline-block;
+  padding:5px;
+}
+
+.submenu-item a {
+  padding:5px 8px;
+  margin: 5px 1px;
+  background:#ffffff90;
+  color:#555;
+}
+
+.submenu-item a:hover {
+  background:#ffffff60;
+}
+
+.submenu-item b {
+  padding:5px 8px;
+  background:#ffffff30;
+  color:#333;
+}
+
+.project-table td {
+  padding:5px 10px;
+  min-height: 225px;
+  text-align:center;
+}
+
+/*.project-table:hover td {
+  border-right:2px solid #454545;
+}*/
+
+.image-right {
+  max-width: 60%;
+  max-height: 580px;
+  float: right;
+  margin: 0 0 15px 20px;
+  padding: 58px 0px 0px 0px;
+}
+
+/*.image-thumb {
+  width: 150px;
+}*/
+
+.t-justify {
+  text-align:justify;
+}
+
+.t-right {
+  text-align:right;
+}
+
+.website {
+  margin:10px 0px 40px 0px;
+  color:#333;
+  font-style: italic;
+  font-weight: 550;
+}
+
+.website a {
+  color:#333;
+  text-decoration:underline;
+}
+
+.website a:hover {
+  text-shadow: 5px 3px #ffaf9299;
+}
+
+.form-table td {
+  padding:5px;
+  vertical-align:top;
+}
+
+.input-text, .textarea {
+  padding:5px;
+  width:300px;
+  background:#dddddd98;
+  color:#4e4e4e;
+  border:1px solid #4e4e4e;
+}
+
+.textarea {
+  height:130px;
+}
+
+.button {
+  padding:10px 20px;
+  background:#89898999;
+  color:#fff;
+  border:none;
+  cursor:pointer;
+}
+
+.button:hover {
+  background:#ffffff90;
+  color: #111;
+}
+
+.small{font-size:11px;}
