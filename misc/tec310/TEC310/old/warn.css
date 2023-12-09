@@ -1,0 +1,107 @@
+body {
+  background: #c21120;
+  text-align: center;
+  color: #fff;
+  font-family: 'Literata', 'Times', serif;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+#A {
+  animation: fade2A 1s linear;
+}
+
+@keyframes fade2A {
+  from { opacity: 0 }
+  to { opacity: 1 }
+}
+
+#B {
+  animation: fade2B 4s linear;
+}
+
+@keyframes fade2B {
+  from { opacity: 0 }
+  to { opacity: 1 }
+}
+
+h3 {
+  font-size: 28px;
+  animation: fade3 9s linear;
+}
+
+@keyframes fade3 {
+  from { opacity: 0 }
+  to { opacity: 1 }
+}
+
+h4 {
+  font-size: 22px;
+  animation: fade4 13s linear;
+}
+
+@keyframes fade4 {
+  from { opacity: 0 }
+  to { opacity: 1 }
+}
+
+a {
+  position: absolute;
+  font-size: 34px;
+  right: 100px;
+  text-decoration: underline;
+  color: #fff
+}
+
+#Nnav {
+  position: fixed;
+  top: 30px;
+  right: 40px;
+  width: 100px;
+  filter: drop-shadow(-5px 5px 5px rgba(240,240,240,0.2));
+  z-index: 100;
+}
+
+#dropdown {
+  position: fixed;
+  top: 36px;
+  right: 43px;
+  width: 216px;
+  height: 198px;
+  background: rgba(30, 30, 30, 0.7);
+  z-index: 90;
+}
+
+.buttons {
+  position: fixed;
+  font-family: 'Macondo', 'Times', cursive;
+  text-decoration: none;
+  width: 300px;
+  font-size: 24px;
+  color: #fff;
+  z-index: 95;
+}
+
+#B1 {
+top: 102px;
+right: 32px;
+}
+
+#B2 {
+top: 150px;
+right: 32px;
+}
+
+#dd {
+    display: none;
+}
+
+#Nnav:hover #dd {
+    display: block;
+}

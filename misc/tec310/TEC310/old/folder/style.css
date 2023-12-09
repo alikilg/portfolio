@@ -1,0 +1,154 @@
+body {
+  font-family: 'Courgette', 'Arial', sans-serif;
+  background: radial-gradient(#fff, #111);
+  background-attachment: fixed;
+}
+
+.header {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  border: double 5px white;
+  border-radius: 9px;
+  margin-top: 7px;
+}
+
+.peng {
+  color: #fff;
+  font-size: 26px;
+  text-shadow: 1px 1px 7px #555;
+	position: absolute;
+  top: 110px;
+  left: 720px;
+  padding: 50px;
+	background: linear-gradient(-80deg, #00e6fe, #98f0f9);
+	border-radius: 50px;
+  filter: drop-shadow(4px 4px 10px #222);
+  display: none;
+}
+
+.peng:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 64%;
+	width: 0;
+	height: 0;
+	border: 47px solid transparent;
+	border-top-color: #00e6fe;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -23.5px;
+	margin-bottom: -43px;
+}
+
+.pengcursor {
+  cursor: pointer;
+}
+
+.mc {
+  position: absolute;
+  top: 540px;
+  left: 200px;
+  color: #fff;
+  font-size: 33px;
+  padding: 60px;
+  width: 700px;
+  border: 4px dashed rgba(255,255,255,0.9);
+  border-radius: 5px;
+  background: linear-gradient(-100deg, rgba(2,2,2,0.8), rgba(1,1,1,0.8));
+  box-shadow: -1px -1px 55px #111;
+  display: none;
+  z-index: 20;
+}
+
+.next {
+  position: absolute;
+  top: 660px;
+  left: 900px;
+  filter: drop-shadow(3px 4px 10px #4f320f);
+  cursor: pointer;
+  animation: next 0.8s ease infinite;
+  display: none;
+  z-index: 30;
+}
+
+@keyframes next {
+  from {left: 902px;}
+  to {left: 898px;}
+}
+
+#sp3 {
+  left: 350px;
+}
+
+#sp4 {
+  top: 100px;
+  left: 400px;
+}
+
+#sp5 {
+  left: 430px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 70px;
+  margin-left: -10px;
+  width: 300px;
+}
+
+li a {
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 3px 2px 5px #707070;
+  background: #fea332;
+  border-radius: 27px;
+  padding: 15px 15px;
+  margin: 17px;
+  cursor: pointer;
+}
+
+li a:hover {
+  color: #fcfcfc;
+  text-shadow: 3px 2px 20px #2b2a2a;
+}
+
+li a:active {
+  color: #fcfcfc;
+  box-shadow: inset 0px 0px 120px rgba(83, 42, 42, 0.7);
+}
+
+#linkblock {
+  position: absolute;
+  top: 190px;
+  /*border: 3px solid red;*/
+  width: 350px;
+  height: 350px;
+}
+
+.limg {
+  position: absolute;
+  top: 190px;
+  left: 385px;
+  display: none;
+}
+
+.noot {
+  position: absolute;
+  top: 250px;
+  left: 866px;
+  filter: drop-shadow(5px 5px 8px #111);
+  z-index: 10;
+}
+
+#noot {
+  cursor: pointer;
+}
+
+#noot1 {
+  display: none;
+}
