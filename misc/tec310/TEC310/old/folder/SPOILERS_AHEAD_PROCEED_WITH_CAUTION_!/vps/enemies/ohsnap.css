@@ -1,0 +1,217 @@
+body {
+  background: linear-gradient(167deg, #fff , #ededed, #bad4ff, #e6ccff, #fffd87);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+}
+
+#code {
+font-size: 14px;
+display: inline;
+}
+
+#p1 {
+  font-size: 15px;
+  display: inline;
+}
+
+#p2 {
+  font-size: 16px;
+}
+
+#p3 {
+  font-size: 17px;
+}
+
+#p4 {
+  font-size: 18px;
+}
+
+#p5 {
+  font-size: 19px;
+}
+
+#p6 {
+  font-size: 20px;
+}
+
+#p7 {
+  font-size: 21px;
+}
+
+#p8 {
+  font-size: 22px;
+}
+
+#p9 {
+  font-size: 23px;
+}
+
+#p10 {
+  font-size: 24px;
+}
+
+#p11 {
+  font-size: 25px;
+}
+
+#p12 {
+  font-size: 26px;
+}
+
+#p13 {
+  font-size: 27px;
+}
+
+#p14 {
+  font-size: 28px;
+}
+
+#p15 {
+  font-size: 29px;
+}
+
+#p16 {
+  font-size: 30px;
+}
+
+#p17 {
+  font-size: 31px;
+}
+
+#p18 {
+  font-size: 32px;
+}
+
+#p19 {
+  font-size: 33px;
+}
+
+#p20 {
+  font-size: 34px;
+}
+
+#p21 {
+  font-size: 35px;
+}
+
+#p22 {
+  font-size: 36px;
+}
+
+#p23 {
+  font-size: 37px;
+}
+
+#p24 {
+  font-size: 38px;
+}
+
+#p25 {
+  font-size: 39px;
+}
+
+#p26 {
+  font-size: 40px;
+}
+
+#p27 {
+  font-size: 41px;
+}
+
+#p28 {
+  font-size: 42px;
+}
+
+#p29 {
+  font-size: 43px;
+}
+
+#p30 {
+  font-size: 44px;
+}
+
+#p31 {
+  font-size: 45px;
+}
+
+#p32 {
+  font-size: 46px;
+}
+
+#p33 {
+  font-size: 47px;
+}
+
+#p34 {
+  font-size: 48px;
+}
+
+#p35 {
+  font-size: 49px;
+}
+
+#p36 {
+  font-size: 50px;
+}
+
+#p37 {
+  font-size: 51px;
+}
+
+#p38 {
+  font-size: 52px;
+}
+
+#p39 {
+  font-size: 53px;
+}
+
+#ON {
+  position: absolute;
+  top: 9500px;
+  left: 700px;
+}
+
+#OFF {
+  position: absolute;
+  top: 9200px;
+  left: 450px;
+}
+
+#portal {
+  position: absolute;
+  top: 510px;
+  left: 800px;
+  width: 340px;
+  height: 400px;
+  border: 5px rgba(254, 254, 254, 0.9) solid;
+  border-radius: 67%;
+  margin: 25px;
+  background: radial-gradient(rgba(222, 222, 222, 0.9), rgba(254, 254, 254, 0.8));
+  background-attachment: fixed;
+  background-size: 800% 800%;
+  animation: portal 12s ease infinite;
+}
+
+#portal:hover {
+  background: radial-gradient(rgba(253, 253, 253, 0.9), rgba(254, 254, 254, 0.8));
+  background-attachment: fixed;
+  background-size: 800% 800%;
+  animation: portal 11s ease infinite;
+}
+
+@keyframes portal {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+オストラリアに行きたいです

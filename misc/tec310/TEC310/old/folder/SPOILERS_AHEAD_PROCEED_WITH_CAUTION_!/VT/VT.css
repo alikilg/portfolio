@@ -1,0 +1,100 @@
+body {
+  font-family: 'Courgette', 'Arial', sans-serif;
+}
+
+#header {
+  color: #fff;
+  text-indent: 110px;
+  line-height: 0.6;
+  padding: 17px;
+  background: linear-gradient(340deg, #12e543, #26b748);
+  border-radius: 20px;
+  box-shadow: 2px 2px 7px #26b748;
+}
+
+h1 {
+  font-size: 47px;
+}
+
+#gif {
+  position: absolute;
+  top: 70px;
+  left: 340px;
+}
+
+#imgtitle {
+  font-size: 30px;
+  position: absolute;
+  top: 210px;
+  left: 430px;
+}
+
+.thumb {
+  position: absolute;
+  opacity: 0.5;
+  cursor: pointer;
+  z-index: 10;
+}
+
+#thumbs {
+  border: solid 2px #12e543;
+  position: absolute;
+  top: 240px;
+  left: 100px;
+  width: 480px;
+  height: 460px;
+  box-shadow: 2px 2px 30px #26b748;
+  z-index: 1;
+}
+
+.thA {
+  top: 60px;
+}
+
+.thB {
+  top: 260px;
+}
+
+#th1 {
+  left: 45px;
+}
+
+#th2 {
+  left: 185px;
+}
+
+#th3 {
+  left: 325px;
+}
+
+#th4 {
+  left: 45px;
+}
+
+#th5 {
+  left: 185px;
+}
+
+#th6 {
+  left: 345px;
+}
+
+.thumb:hover {
+  opacity: 1;
+}
+
+
+.vid {
+  position: absolute;
+  box-shadow: 2px 2px 30px #111;
+}
+
+#pingu {
+  left: 740px;
+  top: 240px;
+}
+
+#howww {
+  left: 790px;
+  top: 500px;
+}

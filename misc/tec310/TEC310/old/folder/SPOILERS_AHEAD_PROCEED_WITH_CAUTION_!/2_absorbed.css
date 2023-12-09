@@ -1,0 +1,270 @@
+body {
+  font-family: 'Courgette', 'Arial', sans-serif;
+  background: radial-gradient(#fefefe, #000000);
+  background-attachment: fixed;
+  background-size: 100000% 100000%;
+	animation: bg 16s ease-in infinite;
+}
+
+@keyframes bg {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+.header {
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 2px 2px 16px #111;
+  text-align: center;
+  border: double 5px #fff;
+  border-radius: 9px;
+  box-shadow: inset 0px 0px 70px rgba(0, 0, 0, 0.8), 0px 0px 56px rgba(0, 0, 0, 0.8);
+  margin-top: 7px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 90px;
+  margin-left: 1007px;
+  width: 300px;
+}
+
+li a {
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  background: linear-gradient(-62deg, #ff8419, #ff962d);
+  border-radius: 27px;
+  padding: 15px 15px;
+  margin: 30px;
+}
+
+li.working a {
+  color: #fff;
+  text-shadow: 3px 2px 5px #707070, 1px 1px 7px;
+  box-shadow: inset 0px 0px 20px rgba(211, 108, 19, 0.9), 0 0 25px rgba(17, 8, 0, 0.5);
+}
+
+li.notworking a {
+  color: #c4beb8;
+  box-shadow: inset 0px 0px 140px rgba(93, 52, 52, 0.8);
+  cursor: default;
+}
+
+li.working a:hover {
+  color: #fcfcfc;
+  text-shadow: 3px 2px 40px #2b2a2a;
+  box-shadow: inset 0px 0px 80px rgba(83, 42, 42, 0.2);
+}
+
+li.working a:active {
+  color: #fcfcfc;
+  box-shadow: inset 0px 0px 120px rgba(83, 42, 42, 0.7);
+}
+
+.noot{
+  position: absolute;
+  top: 300px;
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 48px #111);
+  z-index: 100;
+}
+
+.ntH {
+  display: none;
+}
+
+.nootext {
+  left: 180px;
+}
+
+#nootext1 {
+  cursor: default;
+}
+
+.peng {
+  color: #111;
+  font-size: 26px;
+  text-shadow: 1px 1px 10px #777;
+	position: absolute;
+  top: 140px;
+  left: 408px;
+  padding: 50px;
+	background: linear-gradient(-80deg, #fdfdfd, #fff);
+	border-radius: 50px;
+  filter: drop-shadow(4px 4px 10px #222);
+  cursor: pointer;
+  display: none;
+}
+
+.peng:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 46%;
+	width: 0;
+	height: 0;
+	border: 47px solid transparent;
+	border-top-color: #fff;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -23.5px;
+	margin-bottom: -43px;
+}
+
+#sp1, #sp4, #sp6, #sp8 {
+  cursor: default;
+}
+
+#sp3 {
+  top: 110px;
+  left: 270px;
+}
+
+#sp4 {
+  top: 110px;
+  left: 250px;
+}
+
+#sp7, #sp8 {
+  top: 110px;
+  left: 180px;
+}
+
+#sp10 {
+  left: 440px;
+}
+
+#sp12 {
+  left: 520px;
+}
+
+#sp13 {
+  left: 650px;
+}
+
+
+.mc {
+  position: absolute;
+  top: 560px;
+  left: 200px;
+  color: #fff;
+  font-size: 33px;
+  padding: 60px;
+  width: 700px;
+  border: 4px dashed rgba(255,255,255,0.9);
+  border-radius: 5px;
+  background: linear-gradient(-100deg, rgba(2,2,2,0.8), rgba(1,1,1,0.8));
+  box-shadow: -1px -1px 55px #111;
+  cursor: pointer;
+  display: none;
+  z-index: 110;
+}
+
+#sp5, #sp6, #sp9 {
+  padding: 40px;
+}
+
+#noot {
+  left: 180px;
+}
+
+#nootmove1 {
+  left: 180px;
+  display: none;
+}
+
+#nootmove2 {
+  left: 300px;
+  display: none;
+}
+
+#nootmove3 {
+  left: 450px;
+  display: none;
+}
+
+#nootmove4 {
+  left: 556px;
+  display: none;
+}
+
+#portal {
+  position: absolute;
+  top: 480px;
+  left: 300px;
+  width: 170px;
+  height: 200px;
+  border-top-right-radius: 86%;
+  border-top-left-radius: 86%;
+  margin: 25px;
+  background: radial-gradient(#222222, #fefefe);
+  background-attachment: fixed;
+  background-size: 800% 800%;
+  animation: bg 12s ease infinite;
+  z-index: 2;
+}
+
+#portal:hover {
+  animation: bg 5s ease infinite;
+}
+
+#Xbutton {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 86%;
+  margin: 25px;
+  background: linear-gradient(to bottom right, #ff3d3d, #f90000);
+  box-shadow: inset 0px 0px 26px rgba(1, 1, 1, 0.3), 1px 1px 5px rgba(1, 1, 1, 0.6);
+  animation: Xbutton 4s linear infinite;
+  z-index: 2;
+}
+
+@keyframes Xbutton {
+    0%   {left:100px; top:80px;}
+    50%  {left:100px; top:120px;}
+    100% {left:100px; top:80px;}
+}
+
+#Xbutton h1 {
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 13px;
+  text-shadow: 1px 1px 30px rgba(2, 2, 2, 0.3); /*inner shadow????*/
+}
+
+#Xbutton:hover {
+  transition: 2.4s;
+  transform: rotateY(360deg);
+}
+
+#blocklinks {
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 190px;
+  left: 1050px;
+}
+
+#blockX {
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  top: 95px;
+  left: 120px;
+  z-index: 3;
+}
+
+/*.#f90000, #ff1616*/

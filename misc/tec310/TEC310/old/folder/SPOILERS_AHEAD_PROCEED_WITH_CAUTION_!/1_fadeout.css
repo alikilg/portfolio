@@ -1,0 +1,48 @@
+body {
+  font-family: 'Courgette', 'Arial', sans-serif;
+  background: radial-gradient(#313131, #000000, #121212);
+	background-size: 100000% 100000%;
+	animation: Gradient 20s ease infinite;
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 40%
+	}
+}
+
+a {
+  color: #fff;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+#nar {
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  text-shadow: 1px 1px 20px #aaa;
+  position: absolute;
+  left: 380px;
+}
+
+#p1 {
+  top: 200px;
+}
+
+.hide {
+  display: none;
+}
+
+.next {
+  position: absolute;
+  top: 430px;
+  left: 990px;
+  cursor: pointer;
+}
