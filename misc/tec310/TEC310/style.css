@@ -1,0 +1,226 @@
+body {
+  font-family: 'Cardo', 'Times', serif;
+  background:
+   linear-gradient(
+     to bottom right,
+     rgba(252, 216, 37, 0.85),
+     rgba(252, 90, 37, 0.93),
+     rgba(252, 58, 37, 1)),
+   url(images/bg.jpg);
+   background-attachment: fixed;
+  text-align: center;
+}
+
+#title {
+  color: #fff;
+  text-shadow: 2px 3px #ff0000;
+  border: 2px dashed;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.ptalking {
+  color: #fff;
+  font-size: 20px;
+  /*text-shadow: 1px 1px 7px #555;*/
+	position: absolute;
+  top: 76px;
+  left: 240px;
+  width: 370px;
+  padding: 50px;
+  background: #000;
+	/*background: linear-gradient(-80deg, #000, #423534);*/
+	border-radius: 50px;
+  filter: drop-shadow(4px 4px 10px #222);
+  cursor: pointer;
+  display: none;
+}
+
+#intro2 {
+  top: 70px;
+  left: 280px;
+}
+
+#intro3 {
+  top: 140px;
+  left: 300px;
+}
+
+/*#b1 {
+  position: absolute;
+  left: 630px;
+  top: 650px;
+}
+
+#notb1 {
+  position: absolute;
+  left: 630px;
+  top: 650px;
+}
+
+#b1:hover {
+  filter: drop-shadow(4px 4px #222);
+  cursor: pointer;
+}
+
+#b1:active {
+  filter: drop-shadow(4px 4px #222);
+  cursor: pointer;
+}*/
+
+
+#b2 {
+  position: absolute;
+  left: 740px;
+  top: 540px;
+  width: 260px;
+}
+
+#notb2 {
+  position: absolute;
+  left: 740px;
+  top: 540px;
+  width: 260px;
+}
+
+#b2:hover {
+  filter: drop-shadow(4px 4px #222);
+  cursor: pointer;
+}
+
+#b3 {
+  position: absolute;
+  left: 823px;
+  top: 290px;
+  width: 240px;
+}
+
+#notb3 {
+  position: absolute;
+  left: 823px;
+  top: 290px;
+  width: 240px;
+}
+
+#b3:hover {
+  filter: drop-shadow(4px 4px #222);
+  cursor: pointer;
+}
+
+#b3:active {
+  filter: drop-shadow(4px 4px #222);
+  cursor: pointer;
+}
+
+.button {
+  display: none;
+}
+
+#BT {
+  font-family: 'Macondo', cursive;
+}
+
+#t1{
+  position: absolute;
+  left: 887px;
+  top: 321px;
+  color: #222;
+  font-size: 31px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+#nott1 {
+  position: absolute;
+  left: 887px;
+  top: 290px;
+  color: #222;
+  font-size: 31px;
+  text-decoration: none;
+  z-index: 105;
+}
+
+#t2{
+  position: absolute;
+  left: 777px;
+  top: 564px;
+  color: #222;
+  font-size: 26px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+#nott2 {
+  position: absolute;
+  left: 777px;
+  top: 538px;
+  color: #222;
+  font-size: 26px;
+  text-decoration: none;
+  z-index: 105;
+}
+
+/*.notworkingbuttontext {
+  z-index: 1000;
+}*/
+
+/*.buttontext {
+  display: none;
+}*/
+
+.NOOT {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+  filter: drop-shadow(3px -5px rgba(221, 91, 15, 0.2));
+}
+
+#n0b {
+  display: none;
+}
+
+#n0c {
+  display: none;
+}
+
+#n0c:hover {
+  animation: spin 1s linear infinite;
+}
+
+#pextra {
+  cursor: pointer;
+  display: none;
+}
+
+.ONOOT {
+  position: absolute;
+  left: 280px;
+  top: 230px;
+  filter: drop-shadow(3px -5px rgba(221, 91, 15, 0.2));
+}
+
+#n1 {
+display: none;
+}
+
+#n2 {
+display: none;
+}
+
+#n3 {
+display: none;
+}
+
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  } to {
+      transform: rotate(360deg);
+  }
+}

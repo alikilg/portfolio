@@ -1,0 +1,33 @@
+body {
+  background: linear-gradient(55deg, #69778f, #9ba9c1);
+  background-attachment: fixed;
+}
+
+.binary {
+  color: #fff;
+  font-size: 36px;
+  text-shadow: 0 0 10px #fff , 0 0 25px #5bbdff , 0 0 35px #fff , 0 0 45px #5bbdff , 0 0 50px #5bbdff , 0 0 60px #5bbdff , 0 0 70px #5bbdff ;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#b1 {
+  position: absolute;
+  z-index: 20;
+}
+
+
+#b2 {
+  text-align: right;
+  /* margin-top: -742px; */
+  margin-left: 1130px;
+  z-index: 20;
+}
+
+#b3 {
+  position: absolute;
+  top: 16px;
+  left: 177px;
+  text-align: center;
+  z-index: 10;
+}

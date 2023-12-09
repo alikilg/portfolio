@@ -1,0 +1,104 @@
+body {
+  background: linear-gradient(55deg, #69778f, #9ba9c1);
+  background-attachment: fixed;
+}
+
+.binary {
+  color: #fff;
+  font-size: 36px;
+  text-shadow: 0 0 10px #fff , 0 0 25px #5bbdff , 0 0 35px #fff , 0 0 45px #5bbdff , 0 0 50px #5bbdff , 0 0 60px #5bbdff , 0 0 70px #5bbdff ;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#b1 {
+  position: absolute;
+  z-index: 20;
+}
+
+
+#b2 {
+  text-align: right;
+  /* margin-top: -742px; */
+  margin-left: 1130px;
+  z-index: 20;
+}
+
+#b3 {
+  position: absolute;
+  top: 16px;
+  left: 177px;
+  text-align: center;
+  z-index: 10;
+}
+
+#bars {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(2px 2px 8px rgba(2, 2, 2, 0.9));
+  z-index: 50;
+}
+
+#bars:hover {
+  animation: bars 0.5s linear;
+}
+
+@keyframes bars {
+  0% {left: 0px;}
+  50% {left: 1px;}
+  68% {left: -2px;}
+  89% {left: 2px;}
+  100% {left: 0px;}
+}
+
+
+#worm {
+  position: absolute;
+  top: 560px;
+  left: 30px;
+  filter: drop-shadow(-3px -4px 14px #111);
+  z-index: 40;
+}
+
+#virus1 {
+  position: absolute;
+  top: 300px;
+  left: 900px;
+  filter: drop-shadow(6px 13px 14px #111);
+  z-index: 40;
+}
+
+#virus2 {
+  position: absolute;
+  top: 340px;
+  left: 430px;
+  filter: drop-shadow(2px 2px 16px #111);
+  z-index: 41;
+}
+
+#th {
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  filter: drop-shadow(4px 3px 14px #111);
+  z-index: 40;
+}
+
+#error {
+  position: absolute;
+  top: 70px;
+  left: 770px;
+  filter: drop-shadow(4px 3px 14px #111);
+  z-index: 40;
+}
+
+#spam {
+  position: absolute;
+  top: 320px;
+  left: 740px;
+  filter: drop-shadow(3px 2px 18px #111);
+  z-index: 41;
+}
