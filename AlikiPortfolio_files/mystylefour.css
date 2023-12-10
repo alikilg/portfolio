@@ -9,6 +9,9 @@ body {
   padding:0;
   background: url('../images/layout/1407.JPG');
   background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
   font-family:'Times', serif;
   font-size:18px;
 }
