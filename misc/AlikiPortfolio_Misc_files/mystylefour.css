@@ -99,9 +99,11 @@ img {
 }
 
 .project-table td {
-  padding:5px 10px;
-  min-height: 225px;
+  padding:10px 10px;
   text-align:center;
+  /*min-height: 225px;
+  min-width: 100%;
+  max-width: 100%;*/
 }
 
 /*.project-table:hover td {
